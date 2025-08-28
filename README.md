@@ -49,7 +49,7 @@ The application connects to `localhost:11434` by default. Modify `AIClassifier.c
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+
 
 ---
 
