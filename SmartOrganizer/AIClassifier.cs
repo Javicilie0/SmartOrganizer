@@ -19,7 +19,7 @@ namespace SmartOrganizer
             var requestBody = new
             {
                 model = "mistral",
-                prompt = $"You are a file organizer assistant. Classify the file name '{fileName}' into one of these categories: Games, Media, Software, Documents, or Skip. " +
+                prompt = $"You are a file organizer assistant. Classify the file name '{fileName}' into one of these categories: Games, Media, Software, Documents, Pictures or Skip. " +
              "Definitions: " +
              "Games: Any game or game launcher (e.g. Steam, Epic Games, Riot Client, Fortnite, Minecraft, etc). " +
              "Pictures: Image files (e.g. .jpg, .png, .gif, .bmp, .tiff, etc) or image editing software. " +
@@ -27,7 +27,7 @@ namespace SmartOrganizer
              "Software: General-purpose software, tools, or utilities (e.g. Visual Studio, OBS, Chrome, Notepad++, WinRAR, Discord, Driver Booster, Antivirus, Intel XTU, etc). " +
              "Documents: Microsoft Office files (Excel, Word, PowerPoint, Access, OneNote, Outlook), their shortcuts, and any document files (.doc, .docx, .xls, .xlsx, .xlsm, .csv, .ppt, .pptx, .pdf, .txt, .rtf, .md, .json, .xml, .html, etc). " +
              "Skip: Any browser (Chrome, Edge, Firefox, Opera, Brave, etc), Recycle Bin, or files that do not fit any category. " +
-             "Return only one word: Games, Media, Software, Documents, or Skip. " +
+             "Return only one word: Games, Media, Software, Documents,Pictures or Skip. " +
              "Examples: 'Microsoft Excel.lnk' → Documents, 'Excel File.xlsx' → Documents, 'Steam.lnk' → Games, 'VLC Media Player.lnk' → Media, 'Mem Reduct.lnk' → Software, 'Chrome.lnk' → Skip, 'Recycle Bin.lnk' → Skip."
             };
 
