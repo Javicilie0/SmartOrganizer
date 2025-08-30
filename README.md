@@ -37,17 +37,6 @@ A C# WPF desktop application that automatically organizes files using AI-powered
 | **Software** | General utilities and tools |
 | **Media** | Media players and audio files |
 
-## Configuration
-
-The application connects to `localhost:11434` by default. Modify `AIClassifier.cs` to change AI model or endpoint settings.
-
-## Requirements
-
-- .NET Framework 4.8
-- Windows OS
-- Ollama service running on port 11434
-
-## License
 
 
 
